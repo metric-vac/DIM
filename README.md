@@ -3,14 +3,14 @@
 
 ---
 
-# Information
+## Information
 
-## DIM is a python CLI tool that monitors directories in real-time and looks for changes/modifications. It does that by hashing all files in folders and sub-folders using SHA-256 when run and compares each file's current hash to the originial hash. It also is optimized by checking files metadata and hashes the ones that have been changed since the first hash. It is also has customizable interval time(How many seconds until the next scan)
+### DIM is a python CLI tool that monitors directories in real-time and looks for changes/modifications. It does that by hashing all files in folders and sub-folders using SHA-256 when run and compares each file's current hash to the originial hash. It also is optimized by checking files metadata and hashes the ones that have been changed since the first hash. It is also has customizable interval time(How many seconds until the next scan)
 
 ---
 
-# Why This Tool Exists
-## Important files can be modified, replaced and deleted without the user knowing. This tool combats that with its extremely fast detection speed and accuracy when verifiyng file integrity
+## Why This Tool Exists
+### Important files can be modified, replaced and deleted without the user knowing. This tool combats that with its extremely fast detection speed and accuracy when verifiyng file integrity
 
 ---
 
@@ -28,14 +28,14 @@
 
 ---
 
-# AI Usage
-## I used AI in this project for assistance on how to use argparse. I was unfamiliar with the external package and i have never made a CLI tool with flags like this before. With the help of YouTube tutorials and AI, I was able to make use argparse and make a good CLI tool
+## AI Usage
+### I used AI in this project for assistance on how to use argparse. I was unfamiliar with the external package and i have never made a CLI tool with flags like this before. With the help of YouTube tutorials and AI, I was able to make use argparse and make a good CLI tool
 
 ---
 
-# How To Use
+## How To Use
 
-## First make sure all the packages have been installed by running this command
+### First make sure all the packages have been installed by running this command
 ```bash
 pip install -r requirements.txt
 ```
