@@ -5,7 +5,7 @@
 
 ## Information
 
-### DIM is a python CLI tool that monitors directories in real-time and looks for changes/modifications. It does that by hashing all files in folders and sub-folders using SHA-256 when run and compares each file's current hash to the originial hash. It also is optimized by checking files metadata and hashes the ones that have been changed since the first hash. It is also has customizable interval time(How many seconds until the next scan)
+### DIM is a python CLI tool that monitors directories in real-time and looks for changes/modifications. It does that by hashing all files existing in folders and sub-folders using SHA-256 then compares each file's current hash to the originial hash. It's also optimized by checking files metadata to determine whether the file was changed since the last scan or not. It also has changable interval time(How many seconds until the next scan) which can help for performance and to let the user customize.
 
 ---
 
@@ -35,10 +35,8 @@
 
 ## How To Use
 
-### First make sure all the packages have been installed by running this command
-```bash
-pip install -r requirements.txt
-```
+### Prerequisites
+Because DIM relies entirely on built-in Python modules, there are **no external dependencies** to install. Simply download the script and run it directly.
 
 ## DIM uses flags to choose directories and scan interval time
 
@@ -56,7 +54,5 @@ python main.py -d /path/to/directory -i 3
 ```
 
 ----
-
-### Thats about it for this project, I really enjoyed making this project. I learnt some new things that'll definetly help me in the future. Im also thankful for OwlSec for organizing the competition:).
-
-
+## Achnowledgments 
+### I really enjoyed building this project and learned an incredible amount about file systems and cryptographic hashing that will definitely help me in my future development journey. Huge thanks to OwlSec for organizing this competition
