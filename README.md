@@ -30,7 +30,7 @@
 ---
 
 ## AI & Package Usage
-### I used AI and community tutorials during this project for assistance on how to use `argparse` and how to pivot from a manual polling loop to an event-driven design using `watchdog`. This project helped me bridge the gap between simple script-writing and building optimized, event-driven command-line interfaces.
+### I used AI and community tutorials during this project for assistance on how to use `argparse` and how to change from a manual polling loop to an event-driven design using `watchdog`. This project helped me learn from just simple script-writing and building optimized, event-driven command-line interfaces.
 
 ---
 
